@@ -172,7 +172,7 @@ ul{
       transition: color 0.5s;
       text-decoration: none;
   }
-  #q:hover{
+  #q:hover #e{
       color:red;
   }
   a#q:visited{
@@ -180,3 +180,6 @@ ul{
       text-decoration: none;
       transition: color 0.5s;
   }
+#e{
+    transition: color 0.5s;
+}
