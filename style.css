@@ -168,11 +168,11 @@ ul{
       float:left;
       margin-right: 10px;
   }
-  a#q{
+  #q:link{
       transition: color 0.5s;
       text-decoration: none;
   }
-  a#q:hover{
+  #q:hover{
       color:red;
   }
   a#q:visited{
