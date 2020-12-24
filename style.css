@@ -168,18 +168,18 @@ ul{
       float:left;
       margin-right: 10px;
   }
-  #q:link{
+  a#q{
       transition: color 0.5s;
       text-decoration: none;
   }
-  #q:hover #e{
+  a#q:hover #e{
       color:red;
   }
   a#q:visited{
-      color: blue;
+      color: rgb(5, 5, 88);
       text-decoration: none;
       transition: color 0.5s;
   }
-#e{
+  #e{
     transition: color 0.5s;
-}
+  }
