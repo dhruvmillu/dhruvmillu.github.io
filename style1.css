@@ -12,6 +12,9 @@
    50% {background-image: url("/res/bg.jpg");}
    75% {background-image: url("/res/pexels-mikhail-nilov-7017471.jpg");}
 }
+body{
+	height: 100vh;
+}
 .navbar
 {
     display: flex;
