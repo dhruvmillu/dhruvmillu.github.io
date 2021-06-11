@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 
-.full-page{ animation: changeBg 5s infinite; background-size: cover; }
+.full-page{ animation: changeBg 10s infinite; background-size: cover; }
 @keyframes changeBg{
-   0%,100%  {background-image: url("pexels-fabian-wiktor-994605.jpg");}
-   25% {background-image: url("pexels-kehn-hermano-3816807.jpg");}
-   50% {background-image: url("bg.jpg");}
-   75% {background-image: url("pexels-mikhail-nilov-7017471.jpg");}
+   0%,100%  {background-image: url("/res/pexels-fabian-wiktor-994605.jpg");}
+   25% {background-image: url("/res/pexels-kehn-hermano-3816807.jpg");}
+   50% {background-image: url("/res/bg.jpg");}
+   75% {background-image: url("/res/pexels-mikhail-nilov-7017471.jpg");}
 }
 .navbar
 {
