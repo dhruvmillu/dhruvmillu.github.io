@@ -6,9 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
-  min-height:600px;
-}
 header
 {
   position: absolute;
@@ -52,7 +49,7 @@ header .logo
   position: absolute;
   right: 0;
   width: 100%;
-  min-height: 600px;
+  min-height: 100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
