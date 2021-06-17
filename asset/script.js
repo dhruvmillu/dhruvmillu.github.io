@@ -1,1 +1,0 @@
-var para = new Rellax('.parallax')
