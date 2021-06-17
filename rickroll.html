@@ -11,21 +11,48 @@
             font-family: 'Poppins', sans-serif;
         }
         video{
-            position: absolute;
-            top:0;
-            left:0;
             height: 100vh;
             width:100%;
             object-fit: cover;
-            z-index: 1;
         }
         #lol{
-            font-size: 5rem;
+            position: absolute;
+            visibility: hidden;
+            top:100px;
+            width: 100%;
+            font-size: 2rem;
+            text-align: center;
             font-weight: 900;
+            z-index: 5000;
+            color: antiquewhite;
+            animation: roll 5s linear infinite;
+        }
+
+        @keyframes roll{
+            0%,100%{
+                color: rgb(255, 0, 0);
+                font-size: 2rem;
+            }
+            10%{
+                color: rgb(229, 255, 0);
+            }
+            20%,80%{
+                color: rgb(43, 255, 0);
+            }
+            30%,70%{
+                color: rgb(0, 38, 255);
+            }
+            40%,60%{
+                color: rgb(76, 0, 255);
+            }
+            50%{
+                color: magenta;
+                font-size: 10rem;
+            }
         }
     </style>
     <body>
-        <video src="asset/res/rick.webm" width="100px" height="200px" loop autoplay></video>
+        <video src="asset/res/rick.webm" loop autoplay></video>
         <p id="lol">YOU donkey YOU GOT RICK ROLLED</p>
         <script>
             window.onload = function(){
