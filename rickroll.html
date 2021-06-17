@@ -26,5 +26,14 @@
     </style>
     <body>
         <video src="asset/res/rick.webm" width="100px" height="200px" loop autoplay></video>
+        <p id="lol">YOU donkey YOU GOT RICK ROLLED</p>
+        <script>
+            window.onload = function(){
+                var timer = setTimeout("showText()",3000);
+            }
+            function showText(){
+                document.getElementById("lol").style.visibility="visible";
+            }
+        </script>
     </body>
 </html>
