@@ -50,10 +50,20 @@
                 font-size: 10rem;
             }
         }
+        img{
+            animation: rollimg 5s linear infinite;
+        }
+        @keyframes rollimg{
+            0%,100%{
+                height:5vh;
+            }
+            50%{
+             height:25vh;}
+        }
     </style>
     <body>
         <video src="asset/res/rick.webm" loop autoplay></video>
-        <p id="lol"><img style="transform: scaleX(-1);height: 100% !important;" src="asset/res/42-428665_mule-transprent-png-free-download-mule-donkey-emoji.png">YOU DONKEY<img style="transform: scaleX(-1);height: 100% !important;"src="asset/res/42-428665_mule-transprent-png-free-download-mule-donkey-emoji.png"></p>
+        <p id="lol"><img  src="asset/res/42-428665_mule-transprent-png-free-download-mule-donkey-emoji.png">YOU DONKEY<img style="transform: scaleX(-1);"src="asset/res/42-428665_mule-transprent-png-free-download-mule-donkey-emoji.png"></p>
         <script>
             window.onload = function(){
                 var timer = setTimeout("showText()",3000);
